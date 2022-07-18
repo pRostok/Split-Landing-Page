@@ -87,3 +87,26 @@ h1 {
     background-color: rgb(6, 61, 29);
     border-color: rgb(6, 61, 29);
 }
+
+.hover-left .left {
+    width: 75%;
+}
+
+.hover-left .right {
+    width: 25%;
+}
+
+.hover-right .right {
+    width: 75%;
+}
+
+.hover-right .left {
+    width: 25%;
+}
+
+.split.right,
+.split.left,
+.split.right::before,
+.split.left::before {
+    transition: all 0.8s ease-in-out;
+}
